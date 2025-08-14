@@ -1,0 +1,33 @@
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos temporários/backup
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Dados de execução
+data/despesas.csv
+
+# Arquivos do VSCode
+.vscode/
+
+# Jupyter notebooks checkpointer (caso use futuramente)
+.ipynb_checkpoints/
+
+# Arquivo de dependências (caso for gerar novamente)
+poetry.lock
+Pipfile.lock
